@@ -1,3 +1,58 @@
+html,
 body {
+    font-family: Roboto;
     min-height: 100vh;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+/* Hero section */
+
+/* Header and navigation links */
+.hero-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.hero-footer-bg {
+    background: oklch(27.8% 0.0296 256.8);
+}
+
+.hero-header-logo-text {
+    font-size: 24px;
+    color: oklch(98.4% 0.0028 128.5);
+}
+
+.hero-header ul {
+    display: flex;
+    gap: 30px;
+    color: oklch(92.8% 0.0058 264.5);
+}
+
+/* Awesome text, button, subtext, and image */
+.hero-two-column-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero-awesome-text {
+    font-size: 48px;
+    color: oklch(98.4% 0.0028 128.5);
+    font-weight: 900;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: oklch(98.4% 0.0028 128.5);
+}
+
+.hero-button {
+    color: oklch(98.4% 0.0028 128.5);
+    background: oklch(62.2% 0.1888 259.3);
+    padding: 0.2rem 1.8rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
 }
