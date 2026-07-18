@@ -33,11 +33,6 @@ a:link {
 }
 
 /* Awesome text, button, subtext, and image */
-.hero-two-column-grid {
-    display: flex;
-    justify-content: space-between;
-}
-
 .hero-awesome-text {
     font-size: 48px;
     color: oklch(98.4% 0.0028 128.5);
