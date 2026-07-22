@@ -115,6 +115,7 @@ a:link {
     font-size: 36px;
     color: oklch(27.8% 0.0296 256.8);
     font-weight: 300;
+    font-style: italic;
 }
 
 /* Call to action */
